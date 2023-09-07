@@ -1,2 +1,6 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import MainPage from './home-page/main-page.svelte';
+   import NavBar from './home-page/nav-bar.svelte'
+</script>
+<NavBar/>
+<MainPage/>
