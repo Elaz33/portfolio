@@ -1,7 +1,7 @@
 <div class="header">
     <div class="nav-bar">
         <pre
-            class="header-block">CAR PROJECT     PROJECT B      PROJECT C     PROJECT D</pre>
+            class="header-block">CAR PROJECT         PROJECT B         PROJECT C        PROJECT D</pre>
     </div>
     <div class="name-block">
         <pre class="my-name">ELAZAR ROSENFELD</pre>
@@ -32,6 +32,7 @@
         left: 20%;
         top: -60px;
         font-size: xx-large;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
         color: white;
         /* border: solid green; */
@@ -43,7 +44,9 @@
     .header-block {
         position: relative;
         justify-content: space-evenly;
-        gap: 50px;
+        gap: 75px;
         top: 10px;
+        font-size: small;
+         font-family: Georgia, 'Times New Roman', Times, serif;
     }
 </style>
