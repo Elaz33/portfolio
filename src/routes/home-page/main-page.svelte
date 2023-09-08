@@ -42,6 +42,7 @@
         top: 0.5%;
         width: 400px;
         left: 44%;
+        border-radius: 8px;
         background-color: rgb(135, 117, 117);
     }
     .line {

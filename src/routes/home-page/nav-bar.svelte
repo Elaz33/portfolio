@@ -1,7 +1,7 @@
 <div class="header">
     <div class="nav-bar">
-        <pre
-            class="header-block">CAR PROJECT         PROJECT B         PROJECT C        PROJECT D</pre>
+        
+         <div     class="header-block">CAR PROJECT </div><div     class="header-block">PROJECT B </div><div     class="header-block">PROJECT C  </div><div     class="header-block"> PROJECT D</div> 
     </div>
     <div class="name-block">
         <pre class="my-name">ELAZAR ROSENFELD</pre>
@@ -20,7 +20,8 @@
         width: 400px;
        
         left: 50%;
-       
+        justify-content: space-evenly;
+        gap: 30px;
         /* border: solid red; */
         color: white;
         font-size: large;
@@ -43,8 +44,8 @@
     }
     .header-block {
         position: relative;
-        justify-content: space-evenly;
-        gap: 75px;
+       
+        
         top: 10px;
         font-size: small;
          font-family: Georgia, 'Times New Roman', Times, serif;
